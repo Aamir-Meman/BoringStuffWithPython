@@ -20,3 +20,7 @@ The ** operator is evaluated first; the ***, /, //, and %** are evaluted next, f
 - Always surround your string in **single quote (')**
 - You can even have a string with no characters in it. **''** called a **blank string**.
 
+## String Concatenation and Replication
+
+- **+** is the addition operator when it operates on two integers or floating-point values. However, when + is used on two string values, it joins the strings as the **string concatenation operator**
+- The * operator is used for multiplication when it operates on two integer or floating point values.But when the * operator is used on one string value and one integer value, it becomes the **string replication** operator.
