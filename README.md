@@ -22,5 +22,13 @@ The ** operator is evaluated first; the ***, /, //, and %** are evaluted next, f
 
 ## String Concatenation and Replication
 
-- **+** is the addition operator when it operates on two integers or floating-point values. However, when + is used on two string values, it joins the strings as the **string concatenation operator**
+- **+** is the addition operator when it operates on two integers or floating-point values. However, when + is used on two string values, it joins the strings as the **string concatenation operator**.
 - The * operator is used for multiplication when it operates on two integer or floating point values.But when the * operator is used on one string value and one integer value, it becomes the **string replication** operator.
+
+## Storing Values in Variables
+- A **variable** is like a box in the computer's memory where you can store a single value. 
+- If you want to use the result of an evaluated expression later in your program, you can save it inside a variable.
+- **Assignment Statements**
+  - You'll store values in variables with an assignment statement. An assignment statement consists of a variable name, an equal sign (called the assignment operator), and the value to be stored.
+  - If you enter the assignment statement spam = 42, then a variable named spam will have the integer value 42 stored in it.
+ 
