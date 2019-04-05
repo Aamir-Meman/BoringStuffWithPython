@@ -13,4 +13,5 @@ def main():
 
 
 main()
+# outputs "This is a local"
 print(message)
