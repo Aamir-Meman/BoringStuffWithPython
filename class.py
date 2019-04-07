@@ -4,7 +4,10 @@ class Person:
         self.lname = lname
 
     def get_full_name(self):
-        return self.fname + " " + self.lname
+        return "{} {}".format(self.fname, self.lname)
+
+    def __repr__(self):
+        return "Person: {} {}".format(self.fname, self.lname)
 
 
 p = Person("Aamir", "Meman")
@@ -12,3 +15,13 @@ p = Person("Aamir", "Meman")
 print(p.fname)
 print(p.lname)
 print(p.get_full_name())
+print(p)
+
+""" Outputs
+
+Aamir
+Meman
+Aamir Meman
+Person: Aamir Meman
+
+"""
