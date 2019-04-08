@@ -37,3 +37,18 @@ Empty Tuple
 q = ()
 print(q)
 print(type(q))
+"""
+Output :- 
+
+('Bob', 'Smith', 34)
+<class 'tuple'>
+Smith
+34
+Bob
+Smith
+34
+2
+1
+()
+
+"""
