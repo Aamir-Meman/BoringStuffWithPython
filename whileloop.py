@@ -6,3 +6,4 @@ while counter < len(nums):
     counter = counter + 1
 else:
     print("sums: {} ".format(sum(nums)))
+
