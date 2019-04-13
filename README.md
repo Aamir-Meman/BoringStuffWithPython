@@ -32,3 +32,14 @@ The ** operator is evaluated first; the ***, /, //, and %** are evaluted next, f
   - You'll store values in variables with an assignment statement. An assignment statement consists of a variable name, an equal sign (called the assignment operator), and the value to be stored.
   - If you enter the assignment statement spam = 42, then a variable named spam will have the integer value 42 stored in it.
  
+## A Collection of Modules
+
+- Packages are nothing more than a folder of Python module files.
+- In the package folder, a file named __init__.py should be present,it can be empty
+
+  - This file can be used for package initialization
+- When Python sees this file, it treats the folder as a package, and it modules can be imported
+- The folder name is the package name, and can be thought of as a namespace
+
+ 
+  
