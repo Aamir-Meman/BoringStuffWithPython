@@ -10,7 +10,7 @@ def main():
     global message
     message = "This is a local"
     print(message)
-
+    return True
 
 main()
 # outputs "This is a local"
