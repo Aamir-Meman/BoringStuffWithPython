@@ -16,8 +16,8 @@ for guessTaken in range(1, 7):
         print(' Your guess is too low')
     else:
         break  # Your guess is correct
+
 if guess == secretNumber:  # type: ignore
-    print('You guess was correct after ' +
-          str(guessTaken) + ' times.')  # type: ignore
+    print('You guess was correct after ' + str(guessTaken) + ' times.')  # type: ignore
 else:
     print('Nope. The number I was thinking of ' + str(secretNumber))
